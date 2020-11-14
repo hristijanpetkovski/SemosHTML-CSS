@@ -1,0 +1,195 @@
+<html>
+   <head>
+   <style>
+      .main-container
+      {
+      margin: 0 auto;
+      align-items: center;
+      width: 1120px;
+      margin-top: 80px;
+      }
+      #filedset-custom
+      {
+      border: 2px solid black;
+      border-top: none;
+      }
+      #inside-filedset
+      {
+      border: 2px solid darkslateblue;
+      }
+      #button-search
+      {
+      background: blue;
+      color: white;
+      font-size: inherit;
+      border: none;
+      border-radius: 3px;
+      width: 65px;
+      }
+      #custom-input
+      {
+      border: none;
+      border-bottom: 1px solid black;
+      margin-left: 735px;
+      text-align: center;
+      }
+      #custom-table
+      {
+      margin: 0 auto;
+      align-items: center;
+      }
+      #custom-id
+      {
+      width: 200px;
+      }
+      p
+      {
+      color: blue;
+      font-weight: bold;
+      font-family: sans-serif;
+      }
+      th
+      {
+      text-align: inherit;
+      color: blue;
+      }
+      td
+      {
+      font-weight: bold;
+      height: 15px;
+      font-family:sans-serif;
+      font-size: small;
+      height: 30px;
+      }
+      #edit-button
+      {
+      width: 15px;
+      }
+      #custom-id-col
+      {
+      width: 130px;
+      }
+      #custom-id-1
+      {
+      width: 90px;
+      }
+      #custom-id-1-2
+      {
+      width: 90px;
+      color: red;
+      }
+      #custom-id-2
+      {
+      width: 30px;
+      }
+      #custom-id-3
+      {
+      width: 100px;
+      }
+      #custom-button
+      {
+      background: blue;
+      color: white;
+      font-size: unset;
+      border: none;
+      border-radius: 6px;
+      width: 108px;
+      height:31px ;
+      }
+      .custom-div
+      {
+      margin: 18px 0 10px;
+      }
+   </style>
+   </head>
+   <body>
+      <div class="main-container">
+         <fieldset id="filedset-custom">
+            <div style="display: flex;align-items: center;">
+               <div>
+                  <p>Delete User</p>
+               </div>
+               <div style="margin-right: 30px;">
+                  <input type="text" id="custom-input" placeholder="Quick Search">
+               </div>
+               <div>
+                  <button id="button-search">Search</button>
+               </div>
+            </div>
+            <fieldset id="inside-filedset">
+               <table id="custom-table">
+                  <thead>
+                     <tr>
+                        <th></th>
+                        <th>Name</th>
+                        <th>E-mail</th>
+                        <th>Password</th>
+                        <th>Admin</th>
+                        <th>Delete</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td id="custom-id-2">1.</td>
+                        <td id="custom-id">Espinoza, David</td>
+                        <td id="custom-id-col">espinoza</td>
+                        <td id="custom-id-col">masterkey</td>
+                        <td id="custom-id-1">No</td>
+                        <td id="custom-id-3"><input type="checkbox" name="" id=""></td>
+                        <td id="edit-button"><button>edit</button></td>
+                     </tr>
+                     <tr>
+                        <td id="id=custom-id-2">2.</td>
+                        <td id="custom-id">Hernandez, Victor</td>
+                        <td id="custom-id-col">vhernandez</td>
+                        <td id="custom-id-col">masterkey</td>
+                        <td id="custom-id-1-2">Yes</td>
+                        <td id="custom-id-3"><input type="checkbox" name="" id=""></td>
+                        <td><button>edit</button></td>
+                     </tr>
+                     <tr>
+                        <td id="id=custom-id-2">3.</td>
+                        <td id="custom-id">Hernandez, Angela</td>
+                        <td id="custom-id-col">ahernandez</td>
+                        <td id="custom-id-col">masterkey</td>
+                        <td id="custom-id-1">No</td>
+                        <td id="custom-id-3"><input type="checkbox" name="" id=""></td>
+                        <td><button>edit</button></td>
+                     </tr>
+                     <tr>
+                        <td id="id=custom-id-2">4.</td>
+                        <td id="custom-id">Mendoza, Ray</td>
+                        <td id="custom-id-col">rmendoza</td>
+                        <td id="custom-id-col">masterkey</td>
+                        <td id="custom-id-1-2">Yes</td>
+                        <td id="custom-id-3"><input type="checkbox" name="" id=""></td>
+                        <td><button>edit</button></td>
+                     </tr>
+                     <tr>
+                        <td id="id=custom-id-2">5.</td>
+                        <td id="custom-id">Morin, Yesica</td>
+                        <td id="custom-id-col">ymorin</td>
+                        <td id="custom-id-col">masterkey</td>
+                        <td id="custom-id-1">No</td>
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td id="custom-id-3"><button>edit</button></td>
+                     </tr>
+                     <tr>
+                        <td id="id=custom-id-2">6.</td>
+                        <td id="custom-id">Ortega, Gilbert</td>
+                        <td id="custom-id-col">gortega</td>
+                        <td id="custom-id-col">masterkey</td>
+                        <td id="custom-id-1">No</td>
+                        <td id="custom-id-3"><input type="checkbox" name="select" id="select"></td>
+                        <td><button>edit</button></td>
+                     </tr>
+                  </tbody>
+               </table>
+            </fieldset>
+            <div class="custom-div">
+               <button id="custom-button">Delete</button>
+            </div>
+         </fieldset>
+      </div>
+   </body>
+</html>

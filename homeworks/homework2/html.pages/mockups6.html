@@ -1,0 +1,208 @@
+<html>
+   <head>
+   <style>
+      .container
+      {
+      width: 830px;
+      margin: 0 auto;
+      margin-top: 60px;
+      }
+      .title 
+      {
+        text-align: center;
+      }
+      #cotainer_filedset
+      {
+      padding: 0;
+      }
+      .users
+      {
+      background: blue;
+      color: white;
+      margin-top: -20;
+      height: 24px;
+      opacity: 70%;
+      }
+      p
+      {
+      font-size: larger;
+      margin-left: 10px;
+      }
+      .container-buttons
+      {
+      display: inline-flex;
+      }
+      .container-search
+      {
+      margin-left: 445px;
+      }
+      .container-buttons
+      {
+      margin-top:15px;
+      }
+      .container-table
+      {
+      padding: 10px;
+      }
+      td
+      {
+      width: 170px;
+      text-align: center;
+      }
+      tr
+      {
+      height: 30px;
+      }
+      #custom-id
+      {
+      width: 400px;
+      }
+      button
+      {
+      background: blue;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      opacity: 70%;
+      }
+      #footer_button
+      {
+      background: white;
+      color: black;
+      border: 1px solid black;
+      opacity: 55%;
+      }
+      #custom_footer_button
+      {
+      background: blue;
+      color: white;
+      opacity: 70%;
+      border: 1px solid darkslateblue;
+      }
+      .footer
+      {
+      display: flex;
+      }
+      .button-footer
+      {
+      margin-left: 460px;
+      }
+   </style>
+   </head>
+   <body>
+      <div class="container">
+          <div class="title">
+            <p>List of Expense Reports Saved</p> 
+          </div>  
+
+        <fieldset id="cotainer_filedset">
+            <div class="users">
+               <p>Users</p>
+            </div>
+            <div class="container-buttons">
+               <label for="">Show</label>
+               <select >
+                  <option value="">10</option>
+                  <option value="">9</option>
+                  <option value="">8</option>
+               </select>
+               <label>entries</label>
+               <div class="container-search">
+                  <label>Search:</label>
+                  <input type="text">
+               </div>
+            </div>
+            <div class="container-table">
+               <table>
+                  <thead>
+                     <tr>
+                        <th>Exp.Rep#</th>
+                        <th>Company</th>
+                        <th>Purpose</th>
+                        <th>Amount</th>
+                        <th>Curr.</th>
+                        <th>Status</th>
+                        <th>Submitted On</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>140</td>
+                        <td>US01</td>
+                        <td id="custom_id">Chicago training</td>
+                        <td>624</td>
+                        <td>USD</td>
+                        <td>Rejected</td>
+                        <td><button>Sumbit</button></td>
+                     </tr>
+                     <tr>
+                        <td>143</td>
+                        <td>GP01</td>
+                        <td id="custom-id">Travel to London</td>
+                        <td>222.00</td>
+                        <td>GPB</td>
+                        <td>Rejected by Finance</td>
+                        <td><button>Sumbit</button></td>
+                     </tr>
+                     <tr>
+                        <td>152</td>
+                        <td>BP01</td>
+                        <td id="custom-id">Marketing Show in Madison</td>
+                        <td>20.00</td>
+                        <td>USD</td>
+                        <td>Saved</td>
+                        <td><button>Sumbit</button></td>
+                     </tr>
+                     <tr>
+                        <td>156</td>
+                        <td>BP01</td>
+                        <td id="custom-id">Trip to Canada</td>
+                        <td>472.77</td>
+                        <td>CAD</td>
+                        <td>Saved</td>
+                        <td><button>Sumbit</button></td>
+                     </tr>
+                     <tr>
+                        <td>161</td>
+                        <td>US01</td>
+                        <td id="custom-id">Trip to India</td>
+                        <td><button>Sumbit</button></td>
+                        <td>USD</td>
+                        <td>Saved</td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <td>163</td>
+                        <td>CA01</td>
+                        <td id="custom-id">Onsite analysis</td>
+                        <td>1500.00</td>
+                        <td>CAD</td>
+                        <td>Saved</td>
+                        <td><button>Sumbit</button></td>
+                     </tr>
+                     <tr>
+                        <td>164</td>
+                        <td>GB01</td>
+                        <td id="custom-id">MS SQL Training bootcamp</td>
+                        <td><button>Details</button></td>
+                        <td>GBP</td>
+                        <td>Saved</td>
+                        <td></td>
+                     </tr>
+                  </tbody>
+               </table>
+               <div class="footer">
+                  <div>
+                     <label for="">Showing 1 to 7 of 7 entries</label>
+                  </div>
+                  <div class="button-footer">
+                     <button id="footer_button">Previous</button>
+                     <button id="custom_footer_button">1</button>
+                     <button id="footer_button">Next</button>
+                  </div>
+               </div>
+            </div>
+         </fieldset>
+      </div>
+   </body>
+</html>

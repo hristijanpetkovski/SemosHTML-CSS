@@ -1,0 +1,214 @@
+<html>
+  <head>
+  <style>
+  .main-container
+    {
+      display: flex;
+      align-items: center;
+    } 
+    input
+    {
+      border-radius: 5px;
+      background: #F0F0F0;
+    }
+  
+    #main-filedset
+    {
+      width: 400px;
+      margin: 0 auto;
+      margin-top: 50px;
+    } 
+     .container-child
+    {
+      margin-left: 110px;
+    } 
+    .container-child-1
+    {
+      margin-left: 70px;
+      
+    }
+    #pass
+    {
+      margin-left: 20px;
+      margin-top: 8px;
+      
+    }
+    #pass-1
+    {
+      margin-left: 30px;
+      margin-top: 8px;
+      
+    }
+    #pass-2
+    {
+      margin-left: 20px;
+      margin-top: 8px;
+    }
+    #pass-3
+    {
+      margin-left: 22px;
+      margin-top: 8px;
+    }
+    .container 
+    {
+      margin-left: -49px;
+    }
+    legend
+    {
+      color: blue;
+      font-weight: bold;
+    }
+    
+    .custom-radio
+    {
+      margin-left: 30px;
+    }
+    .custom-date
+    {
+      display: flex;
+      margin-top: 8px;
+    }
+    .custom-datepicker
+    {
+      margin-left: 90px;
+      
+    }
+    #custom-input
+    {
+      margin-left: 29px;
+    }
+    .custom-gender
+    {
+      display: flex;
+      margin-left:130px;
+      margin-top: 8px;
+    }   
+    #label-female
+    {
+      margin-left:20px;
+    }
+
+    #custom-button 
+    {background: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    height: 19px;
+    width: 78px;}
+    .button-register
+    {
+      margin-top: 15px;
+    }
+    .custom-email
+    {
+      display: flex;
+      margin-top: 8px;
+    }
+    .label-email
+    {
+      margin-left: 135px;
+    }
+    .input-email
+    {
+      margin-left:30px;
+    }
+  </style>
+  </head>
+  <body>
+    <div>
+      <fieldset id="main-filedset">
+        <div>
+          <p>Please complete the form below.</p>
+        </div>
+        <fieldset id="inside-filedset">
+          <legend>Login Details</legend>
+          
+          <div class="container">
+            <div class="main-container">
+              <div class="container-child">
+              <label>User Name</label>
+            </div>
+            <div>
+              <input id="pass" type="text" id="">
+            </div>
+          </div>
+          <div class="main-container">
+            <div class="container-child">
+              <label for="">Password</label>
+            </div>
+            <div>
+              <input id="pass-1" type="password">
+            </div>
+          </div>
+          <div class="main-container">
+            <div class="container-child-1">
+              <label for="">Retype Password</label>
+            </div>
+            <div>
+              <input id="pass-2" type="password">
+            </div>
+          </div>
+        </div>
+        </fieldset>
+        <fieldset id="inside-filedset">
+          <legend>User Details</legend>
+          
+          <div class="container">
+            <div class="main-container">
+              <div class="container-child">
+              <label>First Name</label>
+            </div>
+            <div>
+              <input id="pass" type="text" id="">
+            </div>
+          </div>
+          <div class="main-container">
+            <div class="container-child">
+              <label for="">Last Name</label>
+            </div>
+            <div>
+              <input id="pass-3" type="text">
+            </div>
+          </div>
+          
+            <div class="custom-gender">
+
+              <div>
+                <label for="">Gender</label>
+              </div>
+              <div class="custom-radio">
+                <input type="radio" name="" id="">
+                <label id="male-label">Male</label>
+              </div>
+              <div>
+                <input type="radio" name="" id="label-female">
+                <label for="">Female</label>
+              </div>
+            </div>
+            <div class="custom-date">
+              <div class="custom-datepicker">
+                <label for="" >Date of Birth</label>
+              </div>
+              <div>
+                <input type="date" name="" id="custom-input">
+                
+              </div>
+            </div>
+            <div class="custom-email">
+              <div class="label-email">
+                <label for="">Email</label>
+              </div>
+              <div class="input-email">
+                <input type="email" name="" id="">
+              </div>
+            </div>  
+          </fieldset>
+          <div class="button-register">
+            <button id="custom-button">Register</button>
+          </div>
+          
+      </fieldset>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+* {
+  margin: 0 ;
+  padding: 0 ;
+}
+.container
+{
+  border: 1px solid lightgrey;
+    
+    margin: 0 auto;
+    width: 750px;
+    height: 550px;
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 11px;
+}
+
+.input-form
+{
+  display: flex;
+  margin-left: 15px;
+  
+}
+#logo-google
+{
+  width:115px;
+  margin: 10px;
+}
+.header-form
+{
+  margin-left: 11px;
+}
+#last_name , #first_name
+{
+  height: 35px;
+    padding: 6px;
+    border: 1px solid lightgray;
+    margin-right: 12px;
+    border-radius: 5px;
+  }
+h3{
+  font-family: none;
+    margin-left: 5px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+p{
+  margin-left: 5px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.input-email
+{
+  display: grid;
+  margin: 15px;
+}
+#input_email
+{
+  height: 35px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 6px;
+    width: 355px;
+  }
+  #label_email
+  {
+    font-size: 14px;
+    opacity: 85%;
+    margin-top: 5px;
+  }
+  .input-pass
+  {
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+  #input_pass
+  {
+    height: 35px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 6px;
+    margin-right: 12px;
+    width: 150px;
+  }
+  #img-eye
+  {
+    width: 30px;
+    margin-left: 5px;
+  }
+  #img-signin
+  {
+    width: 270px;
+    margin-top: 80px;
+    margin-left: 60px;
+  }
+  .label-pass
+  {
+    margin-left: 15px;
+    font-size: 14px;
+    opacity: 90%;
+
+  }
+  .footer-button
+  {
+    margin-top: 65px;
+    margin-left: 27px;
+  }
+  #signInstead
+  {
+    text-decoration: none;
+    color: royalblue;
+    font-size: 19px;
+  }
+  button
+  {
+    background: cornflowerblue;
+    border: none;
+    color: white;
+    width: 75px;
+    height: 38px;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-left: 145px;
+  }
+  #paragraph-img
+  {
+  text-align: center;
+  margin-left: 10px;
+ 
+    font-size: 16px;
+    font-family: sans-serif;
+    opacity: 70%;
+
+  }

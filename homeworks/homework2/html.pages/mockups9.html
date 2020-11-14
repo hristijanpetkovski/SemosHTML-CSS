@@ -1,0 +1,191 @@
+<html>
+   <head>
+
+      <style>
+      .container-validate-cars
+      {
+      width: 740px;
+      background: lightgrey;
+      height: 425px;
+      border-radius: 25px;
+      margin: 0 auto;
+      margin-top: 30px;
+      }
+      .header
+      {
+      background-color:#2196f3 ;
+      display: flex;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      }
+      #refresh_button
+      {
+      background-color: white;
+      border: none;
+      border-radius: 8px;
+      margin-left: 480px;
+      align-self:center;
+      }
+      #custom-img
+      {
+      margin-right: 6px;
+      }
+      h3
+      {
+      color: white;
+      font-family: sans-serif;
+      font-size: large;
+      margin-left: 10px;
+      }
+      .filter
+      {
+      background: lightgray;
+      display: flex;
+      padding: 15px;
+      }
+      #image_selfie
+      {
+      width: 42px;
+      height: 45px;
+      border-radius: 100%;
+      }
+      #custum_td_photo
+      {
+      display: flex;
+      }
+      table
+      {
+      width: 688px;
+      text-align: justify;
+      border-collapse: collapse;
+      margin: 0 auto;
+      }
+      tbody
+      {
+      background: white;
+      }
+      #circle_img
+      {
+      margin-left: 10px;
+      margin-bottom: 5px;
+      width: 20px;
+      }
+      #button_search
+      {
+      background: #2196f3;
+      border: none;
+      border-radius: 5px;
+      height: 18px;
+      width: 32px;
+      text-align: center;
+      }
+      #label_status
+      {
+      margin-left: 205px;      
+      }
+   </style>
+   </head>
+   <body>
+      <div class="container-validate-cars">
+         <div class="header">
+            <h3>Validate Cars</h3>
+            <button id="refresh_button"><img id="custom-img" src="../images/refreshicon.png" alt="" width="15px">Refresh List</button>
+         </div>
+         <div class="filter">
+            <div>
+               <label>Show</label>
+               <select id="selec_show">
+                  <option value="">5</option>
+               </select>
+               <label id="entries">entires</label>
+            </div>
+            <div>
+               <label id="label_status">Status</label>
+               <select id="select_validate">
+                  <option>Validate</option>
+               </select>
+               <label id="label_name">Name</label>
+               <input type="text" name="search" id="input_search">
+               <button id="button_search"><img src="../images/loupe.png" alt="kiko" width="13px"></button> 
+            </div>
+         </div>
+         <div class="table">
+            <table>
+               <thead>
+                  <tr>
+                     <th>#</th>
+                     <th>Issued by</th>
+                     <th>Issued Date</th>
+                     <th>CAR type</th>
+                     <th>Reference No</th>
+                     <th>Status</th>
+                     <th>Action</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>1</td>
+                     <td id="custum_td_photo">
+                        <img src="../images/selfie.jpg" id="image_selfie"/>
+                        <p>qates</p>
+                     </td>
+                     <td>28 Sep 2019</td>
+                     <td>Internal Audit</td>
+                     <td>IA/19/005</td>
+                     <td><img src="../images/circle.webp" width="12px"><label>Not Validated</label></td>
+                     <td><img src="../images/eyee.png" alt="" width="20px"><img src="../images/trueicon.png" id="circle_img"></td>
+                  </tr>
+                  <tr>
+                     <td>2</td>
+                     <td id="custum_td_photo">
+                        <img src="../images/selfie.jpg" id="image_selfie"/>
+                        <p>qates</p>
+                     </td>
+                     <td>28 Sep 2019</td>
+                     <td>Internal Audit</td>
+                     <td>IA/19/004</td>
+                     <td><img src="../images/circle.webp" width="12px"><label>Not Validated</label></td>
+                     <td><img src="../images/eyee.png" alt="" width="20px"><img src="../images/trueicon.png" id="circle_img"></td>
+                  </tr>
+                  <tr>
+                     <td>3</td>
+                     <td id="custum_td_photo">
+                        <img src="../images/selfie.jpg" id="image_selfie"/>
+                        <p>qates</p>
+                     </td>
+                     <td>28 Sep 2019</td>
+                     <td>Internal Audit</td>
+                     <td>IA/19/003</td>
+                     <td><img src="../images/circle.webp" width="12px"><label>Not Validated</label></td>
+                     <td><img src="../images/eyee.png" alt="" width="20px"><img src="../images/trueicon.png" id="circle_img"></td>
+                  </tr>
+                  <tr>
+                     <td>4</td>
+                     <td id="custum_td_photo">
+                        <img src="../images/selfie.jpg" id="image_selfie"/>
+                        <p>qates</p>
+                     </td>
+                     <td>28 Sep 2019</td>
+                     <td>Internal Audit</td>
+                     <td>IA/19/002</td>
+                     <td><img src="../images/circle.webp" width="12px"><label>Not Validated</label></td>
+                     <td><img src="../images/eyee.png" alt="" width="20px"><img src="../images/trueicon.png" id="circle_img"></td>
+                  </tr>
+                  <tr>
+                     <td>5</td>
+                     <td id="custum_td_photo">
+                        <img src="../images/selfie.jpg" id="image_selfie"/>
+                        <p>qates</p>
+                     </td>
+                     <td>28 Sep 2019</td>
+                     <td>Internal Audit</td>
+                     <td>IA/19/001</td>
+                     <td><img src="../images/green-circle-icon-hi.png" width="12px"><label>Validated</label></td>
+                     <td><img src="../images/eyee.png" alt="" width="20px"></td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+   </body>
+</html>

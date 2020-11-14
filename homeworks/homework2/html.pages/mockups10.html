@@ -1,0 +1,324 @@
+<html>
+   <head>
+      <style>
+         body
+         {
+         background: #3CB371;
+         }
+         .header
+         {
+         display: flex;
+         }
+         #logo
+         {
+         width: 155px;
+         padding: 25px ;
+         }
+         h2
+         {
+         font-family: emoji;
+         color: white;
+         font-size: 50px;
+         }
+         .description
+         {
+         margin-left:650px;
+         }
+         .container-body
+         {
+         display: flex;
+         }
+         .login-form
+         {
+         background: white;
+         width: 480px;
+         border-radius: 8px;
+         height: 285px;
+         }
+         .form-title
+         {
+         font-family: sans-serif;
+         font-size: larger;
+         padding: 1px;
+         margin-left: 20px;
+         }
+         .input-email , .input-pass
+         {
+         display: grid;
+         font-family: sans-serif;
+         font-size: medium;
+         margin-left: 25px;
+         }
+         .input-pass
+         {
+         margin-top: 15px;
+         }
+         .button-submit
+         {
+         margin-top: 20px;
+         margin-left: 19px;
+         }
+         .container-table
+         {
+         height: 920px;
+         }
+         #submit
+         {
+         background: #3CB371;
+         border: none;
+         border-radius: 9px;
+         color: white;
+         font-size: 19px;
+         height: 35px;
+         width: 90px;
+         }
+         #input_pass , #input_email
+         {
+         height: 27px;
+         margin-top: 9px;
+         width: 235px;
+         }
+         .container-table
+         {
+         background: #E8E8E8;
+         border-radius: 8px;
+         margin-left: 25px;
+         }
+         .description-table
+         {
+         margin-left: 10px;
+         }
+         #exemple_first
+         {
+         font-size: x-large;
+         color: #3CB371;
+         font-weight: bold;
+         border-bottom: 1px solid lightgrey;
+         margin-bottom: 20px;
+         }
+         #create
+         {
+         background: #2565AE;
+         border: none;
+         font-size: larger;
+         color: white;
+         border-radius: 9px;
+         }
+         #read
+         {
+         background: #66D3FA;
+         border: none;
+         font-size: larger;
+         color: white;
+         border-radius: 9px;
+         }
+         #update
+         {
+         background: #2E8B57;
+         border: none;
+         font-size: larger;
+         color: white;
+         border-radius: 9px;
+         }
+         #delete
+         {
+         background: #ff1744;
+         border: none;
+         font-size: larger;
+         color: white;
+         border-radius: 9px;
+         }
+         td
+         {
+         width: 160px;
+         text-align: center;
+         height: 55px;
+         font-family: Arial Narrow, sans-serif;
+         font-size: medium;
+         }
+         #exemple_second
+         {
+         font-size: x-large;
+         color: #3CB371;
+         font-weight: bold;
+         border-bottom: 1px solid lightgrey;
+         margin-bottom: 20px;
+         margin-top: 20px;
+         }
+         #button_crud
+         {
+         background: #66D3FA;
+         border: none;
+         font-size: larger;
+         color: white;
+         border-radius: 9px;
+         }
+         #exemple_third
+         {
+         font-size: x-large;
+         color: #3CB371;
+         font-weight: bold;
+         border-bottom: 1px solid lightgrey;
+         margin-bottom: 20px;
+         margin-top: 20px;
+         }
+         .input-form
+         {
+         width: 60px;
+         height: 306px;
+         margin-left: 130px;
+         }
+         input
+         {
+         text-align: center;
+         height: 26px;
+         margin-top: 6px;
+         width: 600px;
+         margin-bottom: 10px;
+         }
+         #input_description
+         {
+         text-align: center;
+         height: 80px;
+         margin-top: 6px;
+         width: 600px;
+         margin-bottom: 10px;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="contanier">
+         <div class="header">
+            <div>
+               <img id="logo" src="../images/unesco.png" alt="unesco">
+            </div>
+            <div  class="description">
+               <h2>Web Page Content</h2>
+            </div>
+         </div>
+         <div class="container-body">
+            <div class="login-form">
+               <div class="form-title">
+                  <h4>Login Form</h4>
+               </div>
+               <div class="input-email">
+                  <label for="">Email</label>
+                  <input type="email" id="input_email">
+               </div>
+               <div class="input-pass">
+                  <label for="">Password</label>
+                  <input type="password" name="" id="input_pass">
+               </div>
+               <div class="button-submit">
+                  <button id="submit">Submit</button>
+               </div>
+            </div>
+            <div class="container-table">
+               <div class="description-table">
+                  <p>Some simple tables:</p>
+               </div>
+               <div class="table">
+                  <table>
+                     <legend id="exemple_first">Exemple 1</legend>
+                     <thead>
+                        <tr>
+                           <th>AID</th>
+                           <th>Title</th>
+                           <th>Type</th>
+                           <th>Descriptio</th>
+                           <th>Create</th>
+                           <th>Read</th>
+                           <th>Update</th>
+                           <th>Delete</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>ttzmw</td>
+                           <td>Title ttzmw</td>
+                           <td>TYPE</td>
+                           <td>Titile ttzmw</td>
+                           <td><button id="create">Create</button></td>
+                           <td><button id="read">Read</button></td>
+                           <td><button id="update">Update</button></td>
+                           <td><button id="delete">Delete</button></td>
+                        </tr>
+                        <tr>
+                           <td>ttzmw</td>
+                           <td>Title ttzmw</td>
+                           <td>TYPE</td>
+                           <td>Titile ttzmw</td>
+                           <td><button id="create">Create</button></td>
+                           <td><button id="read">Read</button></td>
+                           <td><button id="update">Update</button></td>
+                           <td><button id="delete">Delete</button></td>
+                        </tr>
+                        <tr>
+                           <td>ttzmw</td>
+                           <td>Title ttzmw</td>
+                           <td>TYPE</td>
+                           <td>Titile ttzmw</td>
+                           <td><button id="create">Create</button></td>
+                           <td><button id="read">Read</button></td>
+                           <td><button id="update">Update</button></td>
+                           <td><button id="delete">Delete</button></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               <div class="table">
+                  <table>
+                     <legend id="exemple_second">Exemple 2</legend>
+                     <thead>
+                        <tr>
+                           <th>AID</th>
+                           <th>BID</th>
+                           <th>User</th>
+                           <th>UID</th>
+                           <th>Info</th>
+                           <th>Link</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>112</td>
+                           <td>123</td>
+                           <td>123</td>
+                           <td>113</td>
+                           <td>133</td>
+                           <td><button id="button_crud">Crud</button></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               <div>
+                  <legend id="exemple_third">Exemple 3</legend>
+                  <div class="input-form">
+                     <div>
+                        <label>BID</label>
+                        <input type="text" placeholder="Bid">
+                     </div>
+                     <div>
+                        <label>AID</label>
+                        <input type="text" placeholder="AID">
+                     </div>
+                     <div>
+                        <label>UID</label>
+                        <input type="text" placeholder="UID">
+                     </div>
+                     <div>
+                        <label>Description</label>
+                        <input type="text" id="input_description">
+                     </div>
+                     <div>
+                        <label>Response</label>
+                        <input type="text">
+                     </div>
+                     <button id="submit">Submit</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

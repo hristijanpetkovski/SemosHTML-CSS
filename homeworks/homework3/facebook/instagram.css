@@ -1,0 +1,102 @@
+
+.container
+{
+  border: 1px solid lightgray;
+    width: 290px;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+
+
+#input_phone , #input_pass
+{
+  display: block;
+  border: 1px solid lightgray;
+  line-height: 20px;
+  width: 280px;
+  padding: 6px;
+  margin-bottom: 11px;
+}
+#button_login
+{
+  background: #40a8c4;
+    border: none;
+    color: white;
+    width: 279px;
+    border-radius: 5px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#logo-instagram
+{
+  width: 175px;
+  margin-left: 45px;
+  margin-bottom: 16px;
+}
+#login-facebook
+{
+  color: #385185;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-left: 45px;
+  font-size: 17px;
+    
+}
+#img-facebook
+{
+  width: 18px;
+    margin-right: 10px;
+}
+.reset-pass
+{
+  text-align: center;
+  margin-top: 10px;
+}
+#forgot-pass
+{
+  text-decoration: none;
+    color: #00376b;
+}
+.container-second
+{
+  border: 1px solid lightgray;
+    width: 290px;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    height: 5px;
+}
+#sigh-up
+{
+  text-decoration: none;
+    color: #40a8c4;
+    font-size: 19px;
+    font-weight: bold;
+}
+.get-apps
+{
+  text-align: center;
+}
+.footer
+{
+  display: flex;
+  margin-left: 440px;
+}
+.footer a
+{
+  text-decoration: none;
+color: #40a8c4;
+margin-right: 15px;
+
+margin-top: 70;
+margin-top: 70px;
+}

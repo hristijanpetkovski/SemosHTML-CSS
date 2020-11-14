@@ -1,0 +1,42 @@
+.parent {
+  display: flex;
+  text-align: center;
+}
+.box{
+  flex: 1;
+  border: 2px solid blue;
+  height: 150px;
+  padding-top: 2%;
+  width: 400px;
+ 
+}
+
+.exemple-2
+{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  /* margin-top: 35px; */
+  flex-wrap: wrap;
+  align-items: center;
+}
+.exemple-box-1
+{
+  border: 2px solid blue;
+  height: 150px;
+  padding-top: 2%;
+  width: 400px;
+}
+.exemple-box-2{
+  border: 2px solid blue;
+  height: 150px;
+  padding-top: 2%;
+  width: 400px;
+} 
+.exemple-box-3
+{
+  border: 2px solid blue;
+  height: 150px;
+  padding-top: 2%;
+  width: 400px;
+}

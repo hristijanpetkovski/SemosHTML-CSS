@@ -1,0 +1,173 @@
+<html>
+   <head>
+      
+      <style>
+      .container
+      {
+      width: 820px;
+      margin: 0 auto;
+      margin-top: 70px;
+      }
+      .header
+      {
+      display: flex;
+      background: royalblue;
+      color: white;
+      font-family: sans-serif;
+      font-size: unset;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      }
+      h3
+      {
+      margin-left: 20px;
+      }
+      #delete_button
+      {
+      margin-left: 300px;
+      width: 60px;
+      height: 35px;
+      background: red;
+      color: white;
+      border: none;
+      border-radius: 7px;
+      margin-top: 13px;
+      }
+      #employee_button
+      {
+      width: 195px;
+      height: 35px;
+      margin-top: 13px;
+      background: green;
+      color: white;
+      border-radius: 7px;
+      margin-left: 10px;
+      }
+      td
+      {
+      height: 45px;
+      text-align: center;
+      border-bottom: 1px solid black;
+      }
+      th
+      {
+      border-bottom: 1px solid black;
+      }
+      #name
+      {
+      width: 155px;;
+      }
+      #email
+      {
+      width: 205px;
+      }
+      #phone
+      {
+      width: 117px;
+      }
+      .footer
+      {
+      display: flex;
+      }
+      #custom_table
+      {
+      margin-left: 20px;
+      margin-top: 12px;
+      border-collapse: collapse;
+      }
+      .button-pages
+      {
+      margin-left: 340px;
+      margin-top: 18px;
+      }
+      #button_pages
+      {
+      border: none;
+      background: white;
+      font-size: initial;
+      font-family: sans-serif;
+      }
+   </style>
+   </head>
+   <body>
+      <div class="container">
+         <div class="container-item">
+            <div class="header">
+               <h3>Manage Employees</h3>
+               <button id="delete_button">Delete</button>
+               <button id="employee_button">Add New Employee</button>
+            </div>
+            <div class="table">
+               <table id="custom_table">
+                  <thead>
+                     <tr>
+                        <th><input type="checkbox"></th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Phone</th>
+                        <th>Actions</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td id="name">Thomas Hardy</td>
+                        <td id="email">thomashardy@mail.com</td>
+                        <td>89 Chiaroscuro Rd,Portland,USA</td>
+                        <td id="phone">(171) 555-2222</td>
+                        <td><img src="../images/pancil.png" width="40px"><img src="../images/rubbisbin.png" alt="" width="25px"/></td>
+                     </tr>
+                     <tr>
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td id="name">Dominique Perrier</td>
+                        <td id="email">dominiqueperrier@mail.com</td>
+                        <td>Obeere Str.57,Berlin,Germany</td>
+                        <td id="phone">(313) 555-5735</td>
+                        <td><img src="../images/pancil.png" width="40px"><img src="../images/rubbisbin.png" alt="" width="25px"/></td>
+                     </tr>
+                     <tr>
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td id="name">Maria Anderes</td>
+                        <td id="email">mariaandres@mail.com</td>
+                        <td>25, rue lauristo,Paris,France</td>
+                        <td id="phone">(503) 555-9931 </td>
+                        <td><img src="../images/pancil.png" width="40px"><img src="../images/rubbisbin.png" alt="" width="25px"/></td>
+                     </tr>
+                     <tr>
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td id="name">Fran Wilson</td>
+                        <td id="email">franwilson@mail.com</td>
+                        <td>C/ Araquil,67,Madrid,Spain</td>
+                        <td id="phone">(204) 619-5731</td>
+                        <td><img src="../images/pancil.png" width="40px"><img src="../images/rubbisbin.png" alt="" width="25px"/></td>
+                     </tr>
+                     <tr>
+                        <td><input type="checkbox" name="" id=""></td>
+                        <td id="name">Martin Blank</td>
+                        <td id="email">martinblank@mail.com</td>
+                        <td>Via Monte Bianco 34,Turin, Italy</td>
+                        <td id="phone">(480) 631-2097</td>
+                        <td><img src="../images/pancil.png" width="40px"><img src="../images/rubbisbin.png" alt="" width="25px"/></td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+            <div class="footer">
+               <div class="text">
+                  <p>howing 5 out of 25 entries</p>
+               </div>
+               <div class="button-pages">
+                  <button id="button_pages">Previus</button>
+                  <button id="button_pages">1</button>
+                  <button id="button_pages">2</button>
+                  <button id="button_pages">3</button>
+                  <button id="button_pages">4</button>
+                  <button id="button_pages">5</button>
+                  <button id="button_pages">Next</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,172 @@
+<html>
+   <head>
+   <style>
+      .container
+      {
+      width: 1030px;
+      margin: 0 auto;
+      }
+      .flowname
+      {
+      display:block;
+      font-weight: bold
+      }
+      .name-department
+      {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+      }
+      #input-flow-name
+      {
+        background: #f0f0f0;
+        border-radius: 3px;
+        border: 1px solid grey;
+        width: 1030px;
+        height: 25px;
+      }
+      h3
+      {
+      opacity: 65%;
+      }
+      span {
+      content: "\002B";
+      } 
+      #button-photo
+      {
+      background: lightgreen;
+      border: 0px;
+      border-radius: 5px;
+      height:25px ;
+      opacity: 85%;
+      margin-left: 954px;
+      margin-top: 2px;
+      }
+      table, td, th {  
+      border: 1px solid #DCDCDC	;
+      text-align: left;
+      }
+      td
+      {
+      height:45px ;
+      }
+      table {
+      border-collapse: collapse;
+      width: 100%;
+      height: 100px;
+      margin-top: 10px;
+      width: 940px;
+      }
+      #submit 
+      {
+      background: steelblue;
+      border: 0px solid black;
+      border-radius: 3px;
+      padding: 6px;
+      color: white;
+      }
+      #back-button
+      {
+      background: #f0f0f0;
+      border: 0px solid black;
+      border-radius: 3px;
+      padding: 8px;
+      color: black;
+      width: 65px;
+      }
+      .back-button
+      {
+      display: flex;
+      }
+      .submit-button
+      {margin-left: 910px;}
+      #custom-th
+      {
+      height: 40px;
+      width: 90px;
+      }
+      #custom-th-2
+      {
+      width: 55px;
+      }
+      #custom-th-1
+      {
+      width: 100px;
+      }
+      #delete
+      {
+        display: flex;
+      }
+      #table-custom
+      {
+        width: 1030px;
+      }
+   </style>
+   </head>
+   <body>
+      <div class="container">
+         <div class="container-name">
+            <h3>Create New Work Flow</h3>
+            <div class="flowname">
+               <label>Flow Name:</label>
+            </div>
+            <input id="input-flow-name" type="text" placeholder="Testing Work Flow">
+         </div>
+         <div class="name-department">
+            <div>
+               <label>Name Department:</label>
+            </div>
+            <input id="input-flow-name" type="text" placeholder="Engieneering Maintence">
+         </div>
+         <div class="button">
+            <button id="button-photo"><span>&#43;</span>Add Flow</button>
+         </div>
+         <table id="table-custom">
+            <thead>
+               <tr>
+                  <th id="custom-th-1">Step Number</th>
+                  <th>Status</th>
+                  <th>Author</th>
+                  <th id="custom-th">SentBack</th>
+                  <th id="custom-th-2">Check</th>
+                  <th id="custom-th-2">Approve</th>
+                  <th id="custom-th-2">Reject</th>
+                  <th id="custom-th-2">Action</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>1</td>
+                  <td>Awaiting Approval Supervisor</td>
+                  <td>approvalsupervisor@gmail.com</td>
+                  <td><input type="checkbox"></td>
+                  <td><input type="checkbox"></td>
+                  <td><input type="checkbox"></td>
+                  <td><input type="checkbox"></td>
+                  <td><button id="delete"><img src="../images/60761.png" width="12px">Delete</button></td>
+               </tr>
+               <tr>
+                  <td>2</td>
+                  <td>Awaiting Accepted by Head Department</td>
+                  <td>approvalheaddepartment@gmail.com</td>
+                  <td><input type="checkbox"></td>
+                  <td><input type="checkbox"></td>
+                  <td><input type="checkbox"></td>
+                  <td><input type="checkbox"></td>
+                  <td><button id="delete"><img src="../images/60761.png" width="12px">Delete</button></td>
+               </tr>
+            </tbody>
+         </table>
+         <br>
+         <hr>
+         <div class="back-button">
+            <div>
+               <button id="back-button">Back</button>
+            </div>
+            <div class="submit-button">
+               <button id="submit">Submit</button>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

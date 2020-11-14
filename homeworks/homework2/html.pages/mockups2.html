@@ -1,0 +1,119 @@
+<html>
+   <head>
+   <style>
+      #heighttext
+      {
+      height: 50px;
+      }
+      .container
+      {
+         width: 425px;
+         margin:0 auto;
+      }
+      .input-email
+      {
+         display: flex;
+         align-items: center;
+      }
+      .input-website
+      {
+         display: flex;
+         align-items: center;
+      }
+      .licenses-number
+      {
+         display: flex;
+         align-items: center;
+      }
+      .input-name
+      {
+         display: flex;
+         align-items: center;
+      }
+      .billing-details
+      {
+         display: flex;
+      }
+      .payment-details
+      {
+         display: flex;
+      }
+      .input-custom
+      {
+         display: flex;align-items: flex-end;
+      }
+   </style>
+   </head>
+   <body>
+      <div class="container">
+         <h2>Software Order Form</h2>
+         <div>
+            <fieldset>
+               <legend>License details</legend>
+               <div class="input-email">
+                  <li><label for="email">Email Adress</label></li>
+                  <input type="email">
+               </div>
+               <div class="input-website">
+                  <li><label for="">Website</label></li>
+                  <input type="url" placeholder="http://www.example.com/"></input>
+               </div>
+               <div class="licenses-number">
+                  <li><label for="">Number of licenses</label></li>
+                  <input type="url" placeholder="How many to buy (1-10)" ></input>
+               </div>
+            </fieldset>
+            <fieldset>
+               <legend>Billing details</legend>
+               <div class="input-name">
+                  <li><label>Name</label></li>
+                  <input type="text">
+               </div>
+               <div class="billing-details">
+                  <div class="input-custom">
+                     <li><label>Address</label></li>
+                     <textarea  name="story" rows="5" cols="33" placeholder="House number, street, city, state" >
+                     </textarea>   
+                     
+                  </div>
+               </div>
+               <div class="billing-details">
+                  <li><label>Postal code</label></li>
+                  <input type="text" placeholder="Post code or zip code">
+               </div>
+               <div class="billing-details">
+                  <li><label for="select">Country</label></li>
+                  <select name="select" id="select">
+                     <option value="Australia">Australia</option>
+                     <option value="Macedonia">Macedonia</option>
+                     <option value="Poland">Poland</option>
+                     <option value="Holand">Holand</option>
+                     <option value="Estonia">Estonia</option>
+                     <option value="Finland">Finland</option>
+                     <option value="Serbia">Serbia</option>
+                  </select>
+               </div>
+               <div class="billing-details">
+                  <li><label for="">Phone (optional)</label></li>
+                  <input type="text" placeholder="Include country prefix,e.g.">
+               </div>
+            </fieldset>
+            <fieldset>
+               <legend>Payment details</legend>
+               <div class="payment-details">
+                  <li><label for="input-number">Card Number</label></li>
+                  <input type="text" name="numbner" id="input-number" placeholder="As shown on the fron of yo">
+               </div>
+               <div class="payment-details">
+                  <li><label for="input-cvv-code">CVV code</label></li>
+                  <input type="password" name="cvv-code" id="input-cvv-code" placeholder="3-digit number on back of">
+               </div>
+               <div class="payment-details">
+                  <li><label for="input-date"></label>Expiry date</li>
+                  <input type="text" name="date" id="input-date" placeholder="YYYY-MM">
+               </div>
+            </fieldset>
+         </div>
+      </div>
+   </body>
+</html>
